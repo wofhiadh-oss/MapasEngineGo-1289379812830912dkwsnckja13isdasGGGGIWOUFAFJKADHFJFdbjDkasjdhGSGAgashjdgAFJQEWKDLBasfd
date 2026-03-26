@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MapasEngineGo.Editor/1.0.0": {
+        "dependencies": {
+          "MapasEngineGo.Core": "1.0.0",
+          "MapasEngineGo.Renderer": "1.0.0"
+        },
+        "runtime": {
+          "MapasEngineGo.Editor.dll": {}
+        }
+      },
+      "MapasEngineGo.Core/1.0.0": {
+        "runtime": {
+          "MapasEngineGo.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MapasEngineGo.Renderer/1.0.0": {
+        "dependencies": {
+          "MapasEngineGo.Core": "1.0.0"
+        },
+        "runtime": {
+          "MapasEngineGo.Renderer.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MapasEngineGo.Editor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MapasEngineGo.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MapasEngineGo.Renderer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
